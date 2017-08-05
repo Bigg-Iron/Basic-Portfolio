@@ -1,30 +1,217 @@
-.header {
-    background-color: #4aaaa5;
-    color: white;
-    padding: 15px;
+
+
+header {
+    
+    display: flex;
+    font-family: 'Georgia', Times, serif;
+    margin-bottom:5%;
+    width: 960px;
+    background-color: white;
+
 }
 
-.main {
-    background-color: #4aaaa5;
+
+header.aboutSection {
+    background-color: white;
+    width: 650px;
+}
+
+
+main {
+    display: inline-block;
+    width: 960px;
+    margin: 0 auto;
+    height: 1000px;
+    background: url("../images/concrete-texture.png") repeat 0 0;
+}
+
+footer {
+    display: inline-block;
+    text-align: center;
+    font-size: 12px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 960px;
+    background-color: #666666;
+    color: whitesmoke;
+    border-top: 5px solid #4aaaa5;
+}
+
+
+div.sidebar {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    float: right;
+    background-color: white;
+    padding: 1%;
+    margin-right: 3%;
+    justify-content: space-between;
+    border: 1px solid #dddddd; 
+
     
 }
 
-.footer {
-    background-color: #666666;
+h1.connectWithMe {
+    
+    padding: 1%;
+    color: #4aaaa5;
+    border-bottom: 1px solid #dddddd;
+    width: 270px;
+    height: fit-content;
+    display: inline-grid;
+
+
 }
 
-/* TODO:
+li.connectWithMe1 {
+    display: inline-block;
 
-Teal color (used for headings and backgrounds): #4aaaa5
+    
+    
+}
 
-Regular font color (used for paragraphs and all text besides the headings): #777777
 
-Main header background color: #ffffff
+h1.yourName {
 
-Main header border color: #cccccc
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    background-color: #4aaaa5;
+    margin-left: 2%;
+    margin-top: 4%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 4%;
+    padding-bottom: 1%;
+    width: 160px;
+    
 
-Footer background color: #666666
+    
+    
+}
 
-Main content background color: #ffffff
 
-Main content border color: #dddddd  */
+nav.naVii {
+
+    background-color: white;
+    height: 100px;
+    width: 400px;
+    margin-left: 340px;
+    margin-top: 25px;
+
+
+
+}
+
+h1.aboutMe {
+    display: inline-block;
+    color: #4aaaa5;
+    text-align: left;
+    font-size: 20px;
+    margin: 1%;
+    width: 600px;
+    padding: 1%;
+    border-bottom: 3px solid #dddddd; 
+}
+
+
+ul li {
+	
+	padding-right:20px; 
+    padding-left:20px;  
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-right:2px solid #DCDCDC;
+    float: right;
+    margin-top: 6%;
+
+}
+
+
+ul.iii {
+    display: inline-block;
+
+}
+
+li.iiii {
+    float: right;
+}
+
+
+
+li a {
+    color:#777777;
+	text-decoration: none;
+    font-size:1.0em;
+    width: 270px;
+    
+}
+
+
+
+div.contentMain {
+
+    width: 650px; 
+    height: 600px;
+    font-size: 14px;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    line-height: 1.6em;
+    color: grey;
+    float: left;
+    background-color: white;
+    border: 1px solid #dddddd;
+}
+
+
+ p.articleBody {
+
+    /* width: 650px; 
+    margin: 1%;
+    font-size: 16px;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    line-height: 1.6em;
+    color: grey; */
+    display: inline-flex;
+    padding: 2%;
+    float: right;
+
+} 
+
+
+div.connectWith {
+
+    float: right;
+    color: #4aaaa5;
+    margin: 1%;
+    padding: 1%;
+    text-align: center;
+    display: inline-flex;
+
+}
+
+ div.icons {
+
+    text-align: center;
+    display: inline-flex;
+    margin-top: 40%;
+    margin-right: 50px;
+    
+} 
+
+a.linkedin {
+    padding-right: 10%;
+    margin-right: 10%;
+    text-align: center;
+    float: left;
+}
+
+a.github {
+    padding-right: 5%;
+    margin-right: 5%;
+}
+
+a.stack {
+    padding-right: 5%;
+    margin-right: 5%;
+}
